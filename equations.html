@@ -118,6 +118,55 @@
 					</br>and the actual equation string needs $ —see the above last two equations' code</p>
 					<a href="https://jsbin.com/gayuxavegi/edit?html,output">
 					<p>Use this site to test equation output: https://jsbin.com/gayuxavegi/edit?html,output</p></a>
+					<hr>  <p>
+   an inline equation: \(G\left( s \right)=\frac{output}{input}\)
+  </p>
+  <p>
+    the string begins with \, ends with \, enclosed in a closing paren => get rid of the $$
+  </p>
+    <hr>
+  <p>this is another example \({T_e} = {J_e}\Phi  + {B_e}\Phi  + {K_e}\Phi \) replaced the brackets with parens</p>
+  
+ <p> This has slash and brackets: 
+   \[{T_e} = {J_e}\Phi  + {B_e}\Phi  + {K_e}\Phi \]</p>
+  
+<p>  This is slash paren:  
+  \(F\left( s \right) = L\left[ {f\left( t \right)} \right]F\left( s \right),X\left( s \right),T\left( s \right),\theta \left( s \right),V\left( s \right),I\left( s \right)\)</p>
+  <hr>
+  
+  <hr>
+  
+    <p> code to align at equal signs—use ampersand before each equal (use align instead of array):
+\begin{align}
+\sum {torque}  &= J\theta \\
+\sum {torque}  &= T - {T_{spring}} - {T_{damper}}\\
+\sum {torque}  &= T - K\theta  - B\theta \\
+J\theta  &= T - K\theta  - B\theta
+\end{align}
+  </p>
+  
+  <hr>
+  <p>
+\begin{array}{c}
+\sum {torque}  = J\theta \\
+\sum {torque}  = T - {T_{spring}} - {T_{damper}}\\
+\sum {torque}  = T - K\theta  - B\theta \\
+J\theta  = T - K\theta  - B\theta 
+\end{array}
+  </p>
+    <hr>
+  
+ <p> code to align at start; start with the ampersand before each line:
+\begin{align}
+&\sum {torque}  = J\theta \\
+&\sum {torque}  = T - {T_{spring}} - {T_{damper}}\\
+&\sum {torque}  = T - K\theta  - B\theta \\
+& J\theta  = T - K\theta  - B\theta
+\end{align}
+  </p>
+  
+  <hr>
+
 								<footer>
 									<ul class="stats">
 										<li>MathType to LaTex</li>
@@ -150,6 +199,5 @@
 			<script src="assets/js/main.js"></script>
 			<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 			<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-
 	</body>
 </html>
