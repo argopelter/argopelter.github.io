@@ -133,7 +133,14 @@
 <p>  This is slash paren:  
   \(F\left( s \right) = L\left[ {f\left( t \right)} \right]F\left( s \right),X\left( s \right),T\left( s \right),\theta \left( s \right),V\left( s \right),I\left( s \right)\)</p>
   <hr>
-  
+    <p> use of array command
+\begin{array}{c}
+\sum {torque}  = J\theta \\
+\sum {torque}  = T - {T_{spring}} - {T_{damper}}\\
+\sum {torque}  = T - K\theta  - B\theta \\
+J\theta  = T - K\theta  - B\theta 
+\end{array}
+  </p>
   <hr>
   
     <p> code to align at equal signs—use ampersand before each equal (use align instead of array):
@@ -144,19 +151,16 @@
 J\theta  &= T - K\theta  - B\theta
 \end{align}
   </p>
-  
-  <hr>
-  <p>
-\begin{array}{c}
-\sum {torque}  = J\theta \\
-\sum {torque}  = T - {T_{spring}} - {T_{damper}}\\
-\sum {torque}  = T - K\theta  - B\theta \\
-J\theta  = T - K\theta  - B\theta 
-\end{array}
+    <p>
+\[\begin{align}
+\% OS &= 100{e^{{\textstyle{{ - \pi \zeta } \over {\sqrt {1 - {\zeta ^2}} }}}}}\\
+ &= 100{e^{{\textstyle{{ - {t_p}} \over {{t_s}}}}}}\\
+ &= 100\frac{{{X_{\max }} - {X_{SS}}}}{{{X_{SS}}}}
+\end{align}\]
   </p>
-    <hr>
+  <hr>
   
- <p> code to align at start; start with the ampersand before each line:
+ <p> aligned at beginning; start with the ampersand before each line (use align instead of array):
 \begin{align}
 &\sum {torque}  = J\theta \\
 &\sum {torque}  = T - {T_{spring}} - {T_{damper}}\\
@@ -164,7 +168,6 @@ J\theta  = T - K\theta  - B\theta
 & J\theta  = T - K\theta  - B\theta
 \end{align}
   </p>
-  
   <hr>
 
 								<footer>
